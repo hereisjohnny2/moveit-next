@@ -9,7 +9,6 @@
 }
 
 .container section {
-    margin: 5rem 0;
     flex: 1;
 
     display: grid;
@@ -18,3 +17,12 @@
     align-content: center;
 }
 
+@media(max-width: 840px) {
+    .container section {
+        flex: 1;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
