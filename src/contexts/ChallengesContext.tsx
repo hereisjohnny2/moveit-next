@@ -57,6 +57,7 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
       new Notification('Novo desafio!', {
         body: `Valendo ${challenge.amount} xp!`,
         silent: true,
+        icon: '/favicon.png',
       });
     }
 
