@@ -33,7 +33,7 @@ body {
     }
 }
 
-@media(max-width: 1080px) {
+@media(max-width: 720px) {
     html {
         /* menos 2px -> 16 * 0,875 = 14px */
         font-size: 87.5%
